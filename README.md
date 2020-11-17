@@ -31,7 +31,7 @@ So far, your config file should look like this
 ```
 
 # Run the bot
-To run the bot, just run `launch.bat`. Now the bot should be online and raiding the target server :)
+To run the bot, just run `launch.bat`. Now the bot should be online and raiding the target server via commands :)
 
 # Cryptic Nuker ToS
 
