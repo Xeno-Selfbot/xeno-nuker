@@ -15,8 +15,8 @@ bot.on("ready", () => {
     } else {
         console.log(`Logged in as ${bot.user.tag}`)
         console.log(`Commands:
-raid > Raids the server [ BOT MUST HAVE THE ADMINISTRATOR PERMISSION ]
-reset > Resets the server [ BOT MUST HAVE THE ADMINISTRATOR PERMISSION ]
+    raid > Raids the server [ BOT MUST HAVE THE ADMINISTRATOR PERMISSION ]
+    reset > Resets the server [ BOT MUST HAVE THE ADMINISTRATOR PERMISSION ]
         `)
     }
 })
