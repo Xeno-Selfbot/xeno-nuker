@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
-    "discord.js": "^11.6.4"
+    "discord.js": "^12.4.1"
   }
 }
