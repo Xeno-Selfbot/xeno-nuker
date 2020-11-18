@@ -16,26 +16,26 @@ bot.on("ready", () => {
         console.log(`
  
 
-                           
-                             ▄████▄   ██▀███ ▓██   ██▓ ██▓███  ▄▄▄█████▓ ██▓ ▄████▄      ███▄    █  █    ██  ██ ▄█▀▓█████  ██▀███  
-                            ▒██▀ ▀█  ▓██ ▒ ██▒▒██  ██▒▓██░  ██▒▓  ██▒ ▓▒▓██▒▒██▀ ▀█      ██ ▀█   █  ██  ▓██▒ ██▄█▒ ▓█   ▀ ▓██ ▒ ██▒
-                            ▒▓█    ▄ ▓██ ░▄█ ▒ ▒██ ██░▓██░ ██▓▒▒ ▓██░ ▒░▒██▒▒▓█    ▄    ▓██  ▀█ ██▒▓██  ▒██░▓███▄░ ▒███   ▓██ ░▄█ ▒
-                            ▒▓▓▄ ▄██▒▒██▀▀█▄   ░ ▐██▓░▒██▄█▓▒ ▒░ ▓██▓ ░ ░██░▒▓▓▄ ▄██▒   ▓██▒  ▐▌██▒▓▓█  ░██░▓██ █▄ ▒▓█  ▄ ▒██▀▀█▄  
-                            ▒ ▓███▀ ░░██▓ ▒██▒ ░ ██▒▓░▒██▒ ░  ░  ▒██▒ ░ ░██░▒ ▓███▀ ░   ▒██░   ▓██░▒▒█████▓ ▒██▒ █▄░▒████▒░██▓ ▒██▒
-                            ░ ░▒ ▒  ░░ ▒▓ ░▒▓░  ██▒▒▒ ▒▓▒░ ░  ░  ▒ ░░   ░▓  ░ ░▒ ▒  ░   ░ ▒░   ▒ ▒ ░▒▓▒ ▒ ▒ ▒ ▒▒ ▓▒░░ ▒░ ░░ ▒▓ ░▒▓░
-                              ░  ▒     ░▒ ░ ▒░▓██ ░▒░ ░▒ ░         ░     ▒ ░  ░  ▒      ░ ░░   ░ ▒░░░▒░ ░ ░ ░ ░▒ ▒░ ░ ░  ░  ░▒ ░ ▒░
-                            ░          ░░   ░ ▒ ▒ ░░  ░░         ░       ▒ ░░              ░   ░ ░  ░░░ ░ ░ ░ ░░ ░    ░     ░░   ░ 
-                            ░ ░         ░     ░ ░                        ░  ░ ░                  ░    ░     ░  ░      ░  ░   ░     
-                            ░                 ░ ░                           ░                                                      
+                   
+         ▄████▄   ██▀███ ▓██   ██▓ ██▓███  ▄▄▄█████▓ ██▓ ▄████▄      ███▄    █  █    ██  ██ ▄█▀▓█████  ██▀███  
+        ▒██▀ ▀█  ▓██ ▒ ██▒▒██  ██▒▓██░  ██▒▓  ██▒ ▓▒▓██▒▒██▀ ▀█      ██ ▀█   █  ██  ▓██▒ ██▄█▒ ▓█   ▀ ▓██ ▒ ██▒
+        ▒▓█    ▄ ▓██ ░▄█ ▒ ▒██ ██░▓██░ ██▓▒▒ ▓██░ ▒░▒██▒▒▓█    ▄    ▓██  ▀█ ██▒▓██  ▒██░▓███▄░ ▒███   ▓██ ░▄█ ▒
+        ▒▓▓▄ ▄██▒▒██▀▀█▄   ░ ▐██▓░▒██▄█▓▒ ▒░ ▓██▓ ░ ░██░▒▓▓▄ ▄██▒   ▓██▒  ▐▌██▒▓▓█  ░██░▓██ █▄ ▒▓█  ▄ ▒██▀▀█▄  
+        ▒ ▓███▀ ░░██▓ ▒██▒ ░ ██▒▓░▒██▒ ░  ░  ▒██▒ ░ ░██░▒ ▓███▀ ░   ▒██░   ▓██░▒▒█████▓ ▒██▒ █▄░▒████▒░██▓ ▒██▒
+        ░ ░▒ ▒  ░░ ▒▓ ░▒▓░  ██▒▒▒ ▒▓▒░ ░  ░  ▒ ░░   ░▓  ░ ░▒ ▒  ░   ░ ▒░   ▒ ▒ ░▒▓▒ ▒ ▒ ▒ ▒▒ ▓▒░░ ▒░ ░░ ▒▓ ░▒▓░
+          ░  ▒     ░▒ ░ ▒░▓██ ░▒░ ░▒ ░         ░     ▒ ░  ░  ▒      ░ ░░   ░ ▒░░░▒░ ░ ░ ░ ░▒ ▒░ ░ ░  ░  ░▒ ░ ▒░
+        ░          ░░   ░ ▒ ▒ ░░  ░░         ░       ▒ ░░              ░   ░ ░  ░░░ ░ ░ ░ ░░ ░    ░     ░░   ░ 
+        ░ ░         ░     ░ ░                        ░  ░ ░                  ░    ░     ░  ░      ░  ░   ░     
+        ░                 ░ ░                           ░                                                      
  
 
                             
 
-                            ${colors.cyan("Cryptic Nuker")} ${colors.yellow(`v1.0.0`)} ${colors.magenta("|")} ${colors.cyan("Logged in as")} ${colors.yellow(bot.user.tag)} ${colors.magenta("|")} ${colors.cyan("ID:")} ${colors.yellow(bot.user.id)}
-                            ${colors.cyan("Prefix:")} ${colors.yellow(`${prefix}`)}
-                            ${targetID ? `${colors.cyan("Target Server:")} ${bot.guilds.cache.get(targetID).name} (${bot.guilds.cache.get(targetID).id})` : ""}
-                            ${colors.cyan("GitHub:")} ${colors.yellow("https://github.com/p9sq/cryptic-nuker")}
-                            ${colors.cyan("Developer:")} ${colors.yellow("p9sq#0594")}
+            ${colors.cyan("Cryptic Nuker")} ${colors.yellow(`v1.0.0`)} ${colors.magenta("|")} ${colors.cyan("Logged in as")} ${colors.yellow(bot.user.tag)} ${colors.magenta("|")} ${colors.cyan("ID:")} ${colors.yellow(bot.user.id)}
+            ${colors.cyan("Prefix:")} ${colors.yellow(`${prefix}`)}
+            ${targetID ? `${colors.cyan("Target Server:")} ${colors.yellow(bot.guilds.cache.get(targetID).name)} ${colors.magenta("|")} ${colors.cyan("ID:")} ${colors.yellow(bot.guilds.cache.get(targetID).id)}` : ""}
+            ${colors.cyan("GitHub:")} ${colors.yellow("https://github.com/p9sq/cryptic-nuker")}
+            ${colors.cyan("Developer:")} ${colors.yellow("p9sq#0594")}
     `)
     }
 })
