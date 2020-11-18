@@ -13,11 +13,30 @@ bot.on("ready", () => {
     if(targetID === "server-id-here" || targetID === "") {
         console.log(`${colors.red("[ERROR]:")} ${colors.yellow("No server id was provided")}`)
     } else {
-        console.log(`Logged in as ${bot.user.tag}`)
-        console.log(`Commands:
-    raid > Raids the server [ BOT MUST HAVE THE ADMINISTRATOR PERMISSION ]
-    reset > Resets the server [ BOT MUST HAVE THE ADMINISTRATOR PERMISSION ]
-        `)
+        console.log(`
+ 
+
+                           
+                             ▄████▄   ██▀███ ▓██   ██▓ ██▓███  ▄▄▄█████▓ ██▓ ▄████▄      ███▄    █  █    ██  ██ ▄█▀▓█████  ██▀███  
+                            ▒██▀ ▀█  ▓██ ▒ ██▒▒██  ██▒▓██░  ██▒▓  ██▒ ▓▒▓██▒▒██▀ ▀█      ██ ▀█   █  ██  ▓██▒ ██▄█▒ ▓█   ▀ ▓██ ▒ ██▒
+                            ▒▓█    ▄ ▓██ ░▄█ ▒ ▒██ ██░▓██░ ██▓▒▒ ▓██░ ▒░▒██▒▒▓█    ▄    ▓██  ▀█ ██▒▓██  ▒██░▓███▄░ ▒███   ▓██ ░▄█ ▒
+                            ▒▓▓▄ ▄██▒▒██▀▀█▄   ░ ▐██▓░▒██▄█▓▒ ▒░ ▓██▓ ░ ░██░▒▓▓▄ ▄██▒   ▓██▒  ▐▌██▒▓▓█  ░██░▓██ █▄ ▒▓█  ▄ ▒██▀▀█▄  
+                            ▒ ▓███▀ ░░██▓ ▒██▒ ░ ██▒▓░▒██▒ ░  ░  ▒██▒ ░ ░██░▒ ▓███▀ ░   ▒██░   ▓██░▒▒█████▓ ▒██▒ █▄░▒████▒░██▓ ▒██▒
+                            ░ ░▒ ▒  ░░ ▒▓ ░▒▓░  ██▒▒▒ ▒▓▒░ ░  ░  ▒ ░░   ░▓  ░ ░▒ ▒  ░   ░ ▒░   ▒ ▒ ░▒▓▒ ▒ ▒ ▒ ▒▒ ▓▒░░ ▒░ ░░ ▒▓ ░▒▓░
+                              ░  ▒     ░▒ ░ ▒░▓██ ░▒░ ░▒ ░         ░     ▒ ░  ░  ▒      ░ ░░   ░ ▒░░░▒░ ░ ░ ░ ░▒ ▒░ ░ ░  ░  ░▒ ░ ▒░
+                            ░          ░░   ░ ▒ ▒ ░░  ░░         ░       ▒ ░░              ░   ░ ░  ░░░ ░ ░ ░ ░░ ░    ░     ░░   ░ 
+                            ░ ░         ░     ░ ░                        ░  ░ ░                  ░    ░     ░  ░      ░  ░   ░     
+                            ░                 ░ ░                           ░                                                      
+ 
+
+                            
+
+                            ${colors.cyan("Cryptic Nuker")} ${colors.yellow(`v1.0.0`)} ${colors.magenta("|")} ${colors.cyan("Logged in as")} ${colors.yellow(bot.user.tag)} ${colors.magenta("|")} ${colors.cyan("ID:")} ${colors.yellow(bot.user.id)}
+                            ${colors.cyan("Prefix:")} ${colors.yellow(`${prefix}`)}
+                            ${targetID ? `${colors.cyan("Target Server:")} ${bot.guilds.cache.get(targetID).name} (${bot.guilds.cache.get(targetID).id})` : ""}
+                            ${colors.cyan("GitHub:")} ${colors.yellow("https://github.com/p9sq/cryptic-nuker")}
+                            ${colors.cyan("Developer:")} ${colors.yellow("p9sq#0594")}
+    `)
     }
 })
 
