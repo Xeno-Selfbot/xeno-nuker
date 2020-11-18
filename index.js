@@ -2,6 +2,7 @@ const Discord = require("discord.js");
 const { token, prefix, targetID } = require("./config.json");
 const bot = new Discord.Client();
 const colors = require("colors");
+const { stripIndents } = require("common-tags");
 
 // Process
 process.on("unhandledRejection", error => { return })
@@ -44,6 +45,13 @@ bot.on("message", async(message) => {
     let messageArray = message.content.split(" ");
     let cmd = messageArray[0].replace(prefix, "");
     let args = messageArray.slice(1);
+
+    if(cmd === "help") {
+        message.channel.send(stripIndents`Avalible commands for __**${bot.user.tag}**__
+        
+        **${prefix}reset** > Resets the server icon and channels
+        **${prefix}raid** > Makes 100 voice and text channels, makes 100 roles, gives everyone all the roles the bot makes, and, sends the server owner 100 messages`)
+    }
 
     if(cmd === "raid") {
         if(message.guild.id === targetID) {
