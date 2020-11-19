@@ -20,6 +20,8 @@ You should choose a desired prefix for the bot, or you can leave it as `!`
 You should also add in the target server ID so then you can raid the server using these commands:\
 `raid` > That raids the server [ BOT MUST HAVE ADMINISTRATOR PERMISSIONS ]\
 `reset` > That resets the entire server [ BOT MUST HAVE ADMINISTRATOR PERMISSIONS ]
+Other commands:
+`help` > shows all of the avalible commands for the bot
 
 So far, your config file should look like this
 ```json
