@@ -1,6 +1,6 @@
 @echo off
 cls
-title Cryptic Installer
+title Xeno Installer
 npm i
 echo Done!
 pause

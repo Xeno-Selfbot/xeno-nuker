@@ -1,5 +1,5 @@
 @echo off
 cls
-title Cryptic Nuker Launcher
+title Xeno Nuker Launcher
 node index.js
 pause
