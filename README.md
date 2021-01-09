@@ -1,5 +1,5 @@
 # Xeno Nuker
-A discord server nuker by p9sq#0594
+A discord server nuker by Xeno#0538
 
 # Installation
 First, download the repo by clicking `↓ Code`,
@@ -18,8 +18,8 @@ Next, invite the bot to the target server
 You should choose a desired prefix for the bot, or you can leave it as `!`
 
 You should also add in the target server ID so then you can raid the server using these commands:\
-`raid` > That raids the server [ BOT MUST HAVE ADMINISTRATOR PERMISSIONS ]\
-`reset` > That resets the entire server [ BOT MUST HAVE ADMINISTRATOR PERMISSIONS ]
+`raid` > That raids the server [BOT MUST HAVE ADMINISTRATOR PERMISSIONS & Bots role must be the highest]\
+`reset` > That resets the entire server [BOT MUST HAVE ADMINISTRATOR PERMISSIONS & Bots role must be the highest]
 Other commands:
 `help` > shows all of the avalible commands for the bot
 
