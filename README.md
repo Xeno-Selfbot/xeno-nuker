@@ -1,4 +1,4 @@
-# Cryptic Nuker
+# Xeno Nuker
 A discord server nuker by p9sq#0594
 
 # Installation
@@ -35,12 +35,11 @@ So far, your config file should look like this
 # Run the bot
 To run the bot, just run `launch.bat`. Now the bot should be online and raiding the target server via commands :)
 
-# Cryptic Nuker ToS
+# Xeno Nuker ToS
 
 1. You MUST NOT claim the code as your own code
 2. You MUST NOT claim owner ship of the bot
-3. Feel free to edit the code if you want to make something better (Only if you know what you are doing).
 
-# Cryptic Nuker Risks
+# Xeno Nuker Risks
 
 I am not responsible for any actions taken when using this bot. Please use at your own risk.
